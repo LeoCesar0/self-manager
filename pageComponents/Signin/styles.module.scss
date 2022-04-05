@@ -1,0 +1,25 @@
+
+
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    background: var(--surface2);
+    margin-top: var(--size-10);
+    padding: var(--size-fluid-1);
+    min-height: 50vh;
+
+    justify-items: flex-start;
+    align-content: flex-start;
+    border-radius: var(--radius-2);
+}
+
+.formControl{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+    background-color: var(--surface1-dark);
+    padding: var(--size-fluid-1);
+    border-radius: var(--radius-2);
+}
